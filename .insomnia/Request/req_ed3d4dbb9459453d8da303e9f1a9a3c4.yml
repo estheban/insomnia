@@ -1,0 +1,24 @@
+_id: req_ed3d4dbb9459453d8da303e9f1a9a3c4
+type: Request
+parentId: wrk_6e4d7b5f836d4bf9b1a87a4241d005f8
+modified: 1662588558138
+created: 1661371539922
+url: "{{ _.base_url }}/api/job/1ed2476d-866b-6e96-a97a-536e1b793344/logs"
+name: Job Logs
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_7d010137b1ac44fcae2fbf7f6220b1ae',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 600 %}"
+metaSortKey: -1659349151120
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

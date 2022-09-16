@@ -1,0 +1,40 @@
+_id: req_7d010137b1ac44fcae2fbf7f6220b1ae
+type: Request
+parentId: wrk_6e4d7b5f836d4bf9b1a87a4241d005f8
+modified: 1662756227239
+created: 1662576536027
+url: "{{ _.services.login.base_url }}/api/login"
+name: Login - Token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "{{ _.services.login.username }}",
+    	"password": "{{ _.services.login.password }}"
+    }
+parameters: []
+headers:
+  - id: pair_59d69dba20074776b52f2f689d2a22b0
+    name: Accept
+    value: application/json
+    description: ""
+  - id: pair_e4d2045395434063bd004fb638006b36
+    name: Content-type
+    value: application/json
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: true
+  username: ""
+  password: ""
+metaSortKey: -1662523369473
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: false
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

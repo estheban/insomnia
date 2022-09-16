@@ -1,0 +1,24 @@
+_id: req_e03f9d2e1bc34de4906ccca7274113ca
+type: Request
+parentId: wrk_6e4d7b5f836d4bf9b1a87a4241d005f8
+modified: 1662648630987
+created: 1662648622371
+url: "{{ _.services.backend.base_url }}/status"
+name: Backend - Status
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: ""
+  disabled: true
+metaSortKey: -1661909144042.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

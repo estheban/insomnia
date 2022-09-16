@@ -1,0 +1,24 @@
+_id: req_348aee7540b1457dabfeabc922634030
+type: Request
+parentId: wrk_6e4d7b5f836d4bf9b1a87a4241d005f8
+modified: 1662648552798
+created: 1662472500084
+url: "{{ _.services.login.base_url }}/status"
+name: Login - Status
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: ""
+  disabled: true
+metaSortKey: -1662472500084
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: env_5e98f7a508bd0cb4a0be2a6b02f09b6a464f8d3e
+type: Environment
+parentId: wrk_6e4d7b5f836d4bf9b1a87a4241d005f8
+modified: 1662650528958
+created: 1661345772181
+name: Base Environment
+data:
+  services:
+    login:
+      base_url: 127.0.0.1:8101
+      username: ""
+      password: ""
+    backend:
+      base_url: 127.0.0.1:8100
+dataPropertyOrder:
+  "&":
+    - services
+  "&~|services":
+    - login
+    - backend
+  "&~|services~|login":
+    - base_url
+    - username
+    - password
+  "&~|services~|backend":
+    - base_url
+color: null
+isPrivate: false
+metaSortKey: 1661345772181

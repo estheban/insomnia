@@ -1,0 +1,35 @@
+_id: req_8d26d246465a4aa580fae2c05e842447
+type: Request
+parentId: wrk_6e4d7b5f836d4bf9b1a87a4241d005f8
+modified: 1662747344639
+created: 1661345818828
+url: "{{ _.base_url }}/api/command"
+name: Command Submit
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "dbt:run",
+    	"payload": {
+    		"organizationUuid": "3b1fd37d-279c-44d9-83e9-d2feefd94b07"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9425927e13164eb696e012a54815129f
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_7d010137b1ac44fcae2fbf7f6220b1ae',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 600 %}"
+metaSortKey: -1660680242374
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_ebd30bd4973e412c975749557a9a0a46
+type: Request
+parentId: wrk_6e4d7b5f836d4bf9b1a87a4241d005f8
+modified: 1663330606455
+created: 1661345788001
+url: "{{ _.services.backend.base_url }}/api/command"
+name: Command List
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_7d010137b1ac44fcae2fbf7f6220b1ae',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 600 %}"
+metaSortKey: -1661345788001
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
